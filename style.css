@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.7rem;
+}
+
+header {
+  background-color: #1d4d87;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 500px);
+  padding: 1rem;
+  justify-content: center;
+}
+
+.profile img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+ul {
+  list-style: none;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  border: solid 0.7px rgb(130, 130, 209);
+  margin-bottom: 1rem;
+}
+
+.author {
+  text-align: end;
+  color: #1d4d87;
+  font-variant: small-caps;
+}
+
+.date {
+  color: #1d4d8760;
+}
+
+h2 {
+  text-align: center;
+  color: #1d4d87;
+  margin-bottom: 1rem;
+}
